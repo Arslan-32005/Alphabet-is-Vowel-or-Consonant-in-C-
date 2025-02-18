@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ char alphabets;
+ cout << "enter any alphabets:";
+ cin >> alphabets;
+ if (alphabets == 'a' || alphabets == 'A' || alphabets == 'e' || alphabets == 'E' || alphabets == 'i' || alphabets == 'I' || alphabets == 'o' || alphabets == 'O' || alphabets == 'u' || alphabets == 'U')
+ {
+     cout << "it is vowel";
+ }
+ else {
+     cout << "it is consonant";
+ }
+}
